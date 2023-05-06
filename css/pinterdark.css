@@ -10,6 +10,8 @@
     --color-text-icon-default: var(--color-primary) !important;
     --g-colorGray0Hovered: var(--background-tertiary) !important;
     --g-colorGray0Active: var(--background-tertiary) !important;
+    --g-colorGray100Hovered: var(--background-tertiary) !important;
+    --g-colorGray100Active: var(--background-tertiary) !important;
     --g-colorTransparentWhite: var(--background-tertiary) !important;
     --color-background-secondary-base: var(--background-secondary) !important;
     --color-text-default: var(--color-primary) !important;
