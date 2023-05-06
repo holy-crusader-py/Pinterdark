@@ -1,62 +1,69 @@
+* {
+    --background-primary: #131c26;
+    --background-secondary: #1e2630;
+    --background-tertiary: #28313b;
+    --color-primary: #ecf1f9;
+}
+
 html {
-    background-color: #333 !important;
-    color: #FEFEFE !important;
+    background-color: var(--background-primary) !important;
+    color: var(--color-primary) !important;
 }
 
-textarea {
-    color: #FEFEFE !important;
+textarea, span {
+    color: var(--color-primary) !important;
 }
 
-.a_A {
-    background-color: #555 !important;
-}
+.Jea.KS5.xcv.L4E.zI7.iyn.Hsu {
+    gap: 5px !important;
+} 
 
-.a_A:hover, .a_A:focus {
-    background-color: #222 !important;
+.fev[role="button"]:hover {
+    background-color: var(--background-tertiary) !important;
 }
 
 .adn {
-    color: #FEFEFE !important
+    color: var(--color-primary) !important
 }
 
 .App .footerButtons button > div {
-    background-color: #555 !important;
+    background-color: var(--background-secondary) !important;
 }
 
 .CKL {
-    color: #333 !important;
+    color: var(--background-primary) !important;
 }
 
 .fev {
-    background-color: #555 !important;
+    background-color: var(--background-secondary) !important;
 }
 
 .fev ::placeholder {
-    color: #FEFEFE !important;
+    color: var(--color-primary) !important;
 }
 
 .Oii, html:not([dir="rtl"]) .zDA, html[dir="rtl"] .PON {
-    color: #FEFEFE !important;
+    color: var(--color-primary) !important;
 }
 
 .pBj {
-    color: #FEFEFE !important;
+    color: var(--color-primary) !important;
 }
 
 .qJc, .qDf, .jzS {
-    background-color: #333 !important;
-    color: #FEFEFE !important;
+    background-color: var(--background-primary) !important;
+    color: var(--color-primary) !important;
 }
 
 .site {
-    color: #FEFEFE !important;
+    color: var(--color-primary) !important;
 }
 
 .ygj {
-    background-color: #333 !important;
-    border-color: #555 !important;
+    background-color: var(--background-primary) !important;
+    border-color: var(--background-secondary) !important;
 }
 
 .yTZ {
-    color: #FEFEFE !important;
+    color: var(--color-primary) !important;
 }

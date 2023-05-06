@@ -9,7 +9,30 @@
     }, 
     "content_scripts": [
         {
-            "matches": ["*://www.pinterest.com/*"],
+            "matches": ["*://www.pinterest.com/*",
+                        "*://www.pinterest.fr/*",
+                        "*://www.pinterest.co.uk/*",
+                        "*://www.pinterest.ca/*",
+                        "*://www.pinterest.de/*",
+                        "*://www.pinterest.com.au/*",
+                        "*://www.pinterest.it/*",
+                        "*://www.pinterest.es/*",
+                        "*://www.pinterest.ru/*",
+                        "*://www.pinterest.com.mx/*",
+                        "*://www.pinterest.dk/*",
+                        "*://www.pinterest.se/*",
+                        "*://www.pinterest.com.br/*",
+                        "*://www.pinterest.at/*",
+                        "*://www.pinterest.ch/*",
+                        "*://www.pinterest.jp/*",
+                        "*://www.pinterest.cl/*",
+                        "*://www.pinterest.ph/*",
+                        "*://www.pinterest.co.kr/*",
+                        "*://www.pinterest.com.ar/*",
+                        "*://www.pinterest.com.co/*",
+                        "*://www.pinterest.com.pe/*",
+                        "*://www.pinterest.com.mx/*"
+                    ],
             "js": ["pinterdark.js"]
         }
     ]  
