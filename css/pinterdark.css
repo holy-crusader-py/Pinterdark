@@ -5,9 +5,27 @@
     --color-primary: #ecf1f9;
 }
 
+:root {
+    --color-background-default: var(--background-primary) !important;
+    --color-text-icon-default: var(--color-primary) !important;
+    --g-colorGray0Hovered: var(--background-tertiary) !important;
+    --g-colorGray0Active: var(--background-tertiary) !important;
+    --g-colorTransparentWhite: var(--background-tertiary) !important;
+    --color-background-secondary-base: var(--background-secondary) !important;
+    --color-text-default: var(--color-primary) !important;
+}
+
 html {
     background-color: var(--background-primary) !important;
     color: var(--color-primary) !important;
+}
+
+div[data-test-id="flashlight-button"] {
+    background-color: var(--background-secondary) !important;
+}
+
+.bPW {
+    background-color: var(--background-tertiary) !important;
 }
 
 textarea, span {
@@ -16,7 +34,12 @@ textarea, span {
 
 .Jea.KS5.xcv.L4E.zI7.iyn.Hsu {
     gap: 5px !important;
-} 
+}
+
+.KS5.hs0.jx-.ujU.un8.C9i.TB_ {
+    padding: 0 10px !important;
+}
+
 
 .fev[role="button"]:hover {
     background-color: var(--background-tertiary) !important;
@@ -47,11 +70,6 @@ textarea, span {
 }
 
 .pBj {
-    color: var(--color-primary) !important;
-}
-
-.qJc, .qDf, .jzS {
-    background-color: var(--background-primary) !important;
     color: var(--color-primary) !important;
 }
 
